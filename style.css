@@ -1,0 +1,855 @@
+body{
+	background-color: #341977;
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family: 'Roboto', sans-serif;
+}
+h3{
+	font-size: 23px;
+}
+.bg{
+	position: absolute;
+	opacity: 0.5;
+	z-index: -1;
+	top: -100px;
+	border-radius: 70px;
+	filter: blur(45px);
+	width: 45%;
+	height: 700px;
+}
+.bgsecond{
+	top: 200px;
+}
+.secondpetit{
+    left: -410px;
+}
+.etoiles-grandes, .etoiles-petites{
+	filter: unset;
+	opacity: 1;
+	height: auto;
+}
+.etoiles-right{
+	right: 0px;
+}
+.imgright{
+	right: 0px;
+	z-index: -2;
+}
+.secondpetitdroite{
+	right: 85px;
+}
+.imgleft{
+	z-index: -2;
+}
+.header{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	width: 1000px;
+	display: block;
+}
+.header > p, ul, li{
+	display: inline-block;
+	color: white;
+	vertical-align: top;
+}
+.header > p {
+	padding-left: 15px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+.header > ul > li{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	border-radius: 15px;
+	transition: all 0.3s ease-in-out;
+}
+.header > ul > li:hover{
+	
+	background-color: rgba(255, 255 , 255 , 0.15);
+}
+
+
+.header > ul {
+	margin-left: 19%;
+
+}
+.header > img{
+	transition: all 0.6s;
+}
+.header > img:hover{
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1111px;
+	background-image: url('misc/background-neige.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #EBF0F6;
+	border-radius: 15px;
+	box-shadow: 0px 0px 45px;
+}
+.top{
+	height: 145px;
+}
+.top > h1, .chiffre{
+	display: inline-block;
+}
+.top > h1 {
+	width: 53%;
+	margin-left: 63px;
+	font-size: 31px;
+	vertical-align: top;
+	margin-top: 42px;
+}
+.nombretotal{
+	display: inline-block;
+	height: 70px;
+}
+.nombretotal > p{
+	display: inline-block;
+	color: white;
+	background-color: #383838;
+	padding: 10px 13px;
+	border-radius: 8px;
+	font-size: 30px;
+}
+.chiffre > p{
+	margin: 0px 0px;
+	padding: 0px 0px;
+	color: grey;
+	margin-top: 23px;
+}
+.chiffre{
+	font-weight: bold;
+	margin-left: 7%;
+}
+.slide > div > .imageslide > img{
+	position: absolute;
+	width: 140px;
+
+}
+.blocslider{
+	display: inline-block;
+	text-align: center;
+}
+.slide{
+	background-color: rgba(113, 74, 172, 0.7);
+	height: 170px;
+}
+.slide > div {
+	background-color: rgba(129, 94, 182, 0.7);
+	margin-top: 18px;
+	height: 135px;
+	width: 185px;
+	margin-left: 26px;
+}
+#precedent{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: 55px;
+	cursor: pointer;
+	z-index: 1;
+}
+#suivant{
+	position: absolute;
+	margin-top: 55px;
+	cursor: pointer;
+	margin-left: 1100px;
+}
+.slide > div > .imageslide > .plage{
+	width: 138px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.blocslider > p {
+	top: 0px;
+	display: inline-flex;
+	margin-top: 110px;
+	font-size: 14px;
+	color: white;
+	text-shadow: 0 2px 3px black;
+}
+.left{
+	width: 52%;
+	display: inline-block;
+	margin-left: 40px; 
+	padding-bottom: 40px;
+}
+.right{
+	width: 35%;
+	display: inline-block;
+	padding-left: 45px;
+}
+.slide > div > .imageslide > .slidedeux{
+	width: 50px;
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+.slide>div>.imageslide>#plastiqueimage { 
+	transition: all .2s ease-in-out;
+	width: 69px;
+}
+.slide>div>.imageslide>#plastiqueimage:hover { 
+	transform: scale(1.25); 
+}
+
+.slide>div>.imageslide>#megot { 
+	margin-left: 61px;
+	transition: all .2s ease-in-out; 
+}
+.slide>div>.imageslide>#megot:hover { 
+	transform: scale(1.20);
+	margin-left: 75px; 
+}
+.slide>div>.imageslide>#coton { 
+	transition: all .2s ease-in-out; 
+	width: 80px;
+	margin-left: 50px;
+}
+.slide>div>.imageslide>#coton:hover { 
+	margin-left: 65px; 
+}
+.slide>div>.imageslide>#bouteille { 
+	width: 75px;
+	margin-left: 60px;
+	transition: all .2s ease-in-out; 
+}
+.slide>div>.imageslide>#bouteille:hover { 
+	transform: rotate(-15deg);
+}
+.slide>div>.imageslide>#parasol { 
+	width: 73px;
+	margin-left: 58px;
+	transition: all .4s ease-in-out; 
+}
+.slide>div>.imageslide>#parasol:hover { 
+	opacity: 0.4;
+}
+.article{
+	display: inline-flex;
+}
+::-moz-selection { 
+	background: rgba(216, 0 , 244 , 1); 
+	color: white;
+}
+::selection {
+	background: rgba(216, 0 , 244 , 1);
+	color: white;
+}
+.liste{
+	background-color: rgba(255, 255 ,255 , 0.5);
+	border: 2px solid grey;
+	border-radius: 15px;
+}
+.liste > ul > li > .headliste{
+	color: black;
+	display: inline-block;
+	font-weight: bold;
+	padding-left: 25px;
+	width: 190px;
+	vertical-align: top;
+}
+.listecontent> p{
+	margin-left: 10px;
+	color: grey;
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 15px;
+}
+.listecontent> img{
+	width: 17%;
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 100px;
+	
+}
+.listecontent{
+	display: inline-flex;
+	height: 38px;
+	width: 161px;
+	margin-left: 10px;
+	position: absolute;
+}
+.liste > ul > li {
+	border-bottom: 1px solid #d3d3d3;
+	width: 385px;
+	transition: all .2s ease-in-out; 
+	height: 45px;
+}
+.liste > ul {
+	padding: 0;
+	margin: 0;
+}
+#lastliste{
+	border-bottom: unset;
+}
+.liste> ul > li:hover{
+	background: rgba(216, 0 , 244 , 0.5);
+	color: white;
+	border-radius: 5px;
+	border-bottom: 1px solid white;
+	width: 400px;
+	cursor: pointer;
+}
+.liste> ul > li:hover > p{
+	color: white;
+}
+.left > h2{
+	font-weight: normal;
+}
+.article-content > p{
+	font-size: 18px;
+}
+.citationcontainer{
+	display: block;
+}
+.citation{
+	display: inline-block;
+	width: 29%;
+	font-size: 14px;
+	color: grey;
+}
+.citation-left{
+	border-right: 1px dotted grey;
+	padding-right: 15px;
+}
+.citation-mid{
+	border-right: 1px dotted grey; 
+	width: 28%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.citation-right{
+	width: 28%;
+	padding-left: 15px;
+}
+.date{
+	display: block;
+}
+.date > * {
+	display: inline-block;
+	color: grey;
+}
+a{
+	font-weight: bold;
+}
+.footer{
+	width: 1111px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: grey;
+	height: 200px;
+	padding-top: 10px;
+}
+.copyright{
+	opacity: 0.25;
+	transition: all 0.2s ease-in-out;
+}
+.copyright:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.form{
+	background-color: #D4D0E9;
+	width: 100%;
+	height: 285px;
+	margin: auto;
+	border-radius: 10px;
+}
+input{
+	-webkit-box-shadow: inset 0px 2px 1px rgba(0,0,0,.8);
+	-moz-box-shadow: inset 0px 2px 1px rgba(0,0,0,.8);
+	box-shadow: inset 0px 2px 1px rgba(0,0,0,0.6);
+	background-color: white;
+	border: unset;
+}
+input:focus{
+	-webkit-box-shadow: unset;
+	-moz-box-shadow: unset;
+	box-shadow: unset;
+}
+.form > p {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 25px;
+}
+.form > button{
+	margin-top: 7%;
+	margin-left: 35%;
+	padding: 10px 20px;
+	border-radius: 30px;
+	border: 1px solid grey;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	font-weight: bold;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #ffffff 0%,#d8d8d8 100%);;
+}
+.form > button:focus{
+	box-shadow: unset;
+}
+.formnom > input{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+	height: 25px;
+}
+.formnom > p {
+	margin-left: 35px;
+	margin-bottom: 5px;
+	color: grey;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: left;
+}
+.formprenom > input{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6px;
+	height: 25px;
+}
+.formprenom > p {
+	margin-left: 35px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: grey;
+	font-size: 13px;
+	text-align: left;
+}
+.right > .citation{
+	width: 90%;
+	font-size: 17px;
+}
+.imageslide{
+	text-align: left;
+}
+.formnom, .formprenom{
+	text-align: center;
+}
+input{
+	width: 85%;
+}
+a{
+	text-decoration:none; 
+}
+@media screen and (max-width: 1100px){
+	.content{
+		width: 880px;
+	}
+	.top > h1{
+		width: 38%;
+		font-size: 22px;
+	}
+	#suivant{
+		margin-left: 865px;
+	}
+	.slide{
+		height: 145px;
+	}
+	.slide > div{
+		height: 102px;
+		width: 15%;
+	}
+	.slide > div > .imageslide > .slidedeux{
+		width: unset;
+	}
+	.slide > div > .imageslide > .plage{
+		width: 9%;
+	}
+	.slide > div > .imageslide > #plastiqueimage{
+		width: 4%;
+	}
+	.slide > div > .imageslide > #megot{
+		width: 4%;
+		margin-left: 40px;
+		margin-top: 15px;
+	}
+	.slide > div > .imageslide > #megot:hover{
+		margin-left: 55px;
+	}
+	.slide > div > .imageslide > #coton{
+		width: 4%;
+	}
+	.slide > div > .imageslide > #bouteille{
+		width: 4%;
+		margin-left: 40px;
+	}
+	.slide > div > .imageslide > #parasol{
+		width: 4%;
+		margin-left: 40px;
+	}
+	.blocslider > p{
+		margin-top: 72px;
+	}
+	.article{
+		display: block;
+	}
+	.left{
+		width: 86%;
+	}
+	.citationcontainer{
+		display: unset;
+	}
+	.citation-right{
+		width: 27%;
+	}
+	.right{
+		width: 55%;
+		display: unset;
+		padding-left: unset;
+		position: unset;
+		margin-left: 169px;
+	}
+	.liste{
+		width: 44%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form{
+		width: 47%;
+	}
+	.right > .citation{
+		width: 39%;
+		margin-left: 240px;
+	}
+	.right > h2{
+		text-align: center;
+	}
+	.footer{
+		width: 90%;
+	}
+	.header{
+		text-align: center;
+		width: 90%;
+	}
+	.header > img{
+		width: unset;
+		margin-right: auto;
+		margin-left: 9px;
+	}
+	.header > ul {
+		margin-left: unset;
+	}
+}
+@media screen and (max-width: 890px){
+	.content{
+		width: 700px;
+	}
+	#suivant{
+		margin-left: 685px;
+	}
+	.slide{
+		height: 145px;
+	}
+	.slide > div{
+		height: 102px;
+		width: 15%;
+	}
+	.slide > div > .imageslide > .slidedeux{
+		width: unset;
+	}
+	.slide > div > .imageslide > .plage{
+		width: 9%;
+	}
+	.slide > div > .imageslide > #plastiqueimage{
+		width: 4%;
+	}
+	.slide > div > .imageslide > #megot{
+		width: 4%;
+		margin-left: 40px;
+		margin-top: 15px;
+	}
+	.slide > div > .imageslide > #megot:hover{
+		margin-left: 55px;
+	}
+	.slide > div > .imageslide > #coton{
+		width: 4%;
+		margin-left: 40px;
+	}
+	.slide > div > .imageslide > #coton:hover{
+		margin-left: 55px;
+	}
+	.slide > div > .imageslide > #bouteille{
+		width: 4%;
+		margin-left: 40px;
+	}
+	.slide > div > .imageslide > #parasol{
+		width: 4%;
+		margin-left: 40px;
+	}
+	.blocslider > p{
+		margin-top: 64px;
+	}
+	.article{
+		display: block;
+	}
+	.left{
+		width: 86%;
+	}
+	.citationcontainer{
+		display: unset;
+	}
+	.citation-right{
+		width: 27%;
+	}
+	.right{
+		width: 55%;
+		display: unset;
+		padding-left: unset;
+		position: unset;
+		margin-left: 169px;
+	}
+	.liste{
+		width: 44%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form{
+		width: 47%;
+	}
+	.right > .citation{
+		width: 44%;
+		margin-left: 195px;
+	}
+	.right > h2{
+		text-align: center;
+	}
+	.footer{
+		width: 90%;
+	}
+	.header{
+		text-align: center;
+		width: 90%;
+	}
+	.header > img{
+		width: unset;
+		margin-right: auto;
+		margin-left: 9px;
+	}
+	.header > ul {
+		margin-left: unset;
+	}
+	.listecontent{
+		margin-left: -40px;
+	}
+	.liste > ul > li{
+		width: 308px;
+	}
+	.liste> ul > li:hover{
+		width: 323px;
+	}
+}
+@media screen and (max-width: 705px){
+	.content{
+		width: 590px;
+	}
+	.top > h1{
+		width: 34%;
+		font-size: 18px;
+	}
+	#suivant{
+		margin-left: 563px;
+	}
+	.slide{
+		height: 145px;
+	}
+	.slide > div{
+		height: 102px;
+		width: 15%;
+		margin-left: 20px;
+	}
+	.slide > div > .imageslide > .slidedeux{
+		width: unset;
+		margin-top: 15px;
+	}
+	.slide > div > .imageslide > .plage{
+		width: 9%;
+		padding-left: 18px;
+	}
+	.slide > div > .imageslide > #plastiqueimage{
+		width: 4%;
+		margin-left: 29px;
+	}
+	.slide > div > .imageslide > #megot{
+		margin-left: 32px;
+		width: 4%;
+	}
+	.slide > div > .imageslide > #megot:hover{
+		margin-left: 46px;
+	}
+	.slide > div > .imageslide > #coton{
+		width: 4%;
+		margin-left: 33px;
+	}
+	.slide > div > .imageslide > #coton:hover{
+		margin-left: 48px;
+	}
+	.slide > div > .imageslide > #bouteille{
+		width: 4%;
+		margin-left: 33px;
+	}
+	.slide > div > .imageslide > #parasol{
+		width: 4%;
+		margin-left: 33px;
+	}
+	.blocslider > p{
+		margin-top: 54px;
+	}
+	.article{
+		display: block;
+	}
+	.left{
+		width: 86%;
+	}
+	.citationcontainer{
+		display: unset;
+	}
+	.citation-right{
+		width: 27%;
+	}
+	.right{
+		width: 55%;
+		display: unset;
+		padding-left: unset;
+		position: unset;
+		margin-left: 169px;
+	}
+	.liste{
+		width: 44%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form{
+		width: 47%;
+	}
+	.right > .citation{
+		width: 44%;
+		margin-left: 175px;
+	}
+	.right > h2{
+		text-align: center;
+	}
+	.footer{
+		width: 90%;
+	}
+	.header{
+		text-align: center;
+		width: 90%;
+	}
+	.header > img{
+		width: unset;
+		margin-right: auto;
+		margin-left: 9px;
+	}
+	.header > ul {
+		margin-left: unset;
+	}
+	.listecontent{
+		margin-left: -40px;
+	}
+	.liste > ul > li{
+		width: 259px;
+	}
+	.liste> ul > li:hover{
+		width: 274px;
+	}
+	.chiffre{
+		margin-left: 0%;
+	}
+	.liste > ul > li > .headliste{
+		width: 158px;
+		padding-left: 10px;
+	}
+	.form > button{
+		margin-left: 28%;
+	}
+}
+@media screen and (max-width: 605px){
+	.header > ul {
+		margin-left: -50px;
+	}
+	.content{
+		width: 440px;
+	}
+	.nombretotal > p {
+		font-size: 25px;
+	}
+	.top > h1 {
+		width: 25%;
+		font-size: 12px;
+	}
+	.slide > div {
+		width: 14%;
+	}
+	#suivant, #precedent {
+		display: none;
+	}
+	.slide > div > .imageslide > .plage{
+		padding-left: 10px;
+	}
+	.slide > div > .imageslide > #plastiqueimage{
+		margin-left: 16px;
+	}
+	.slide > div > .imageslide > #megot{
+		margin-left: 16px;
+	}
+	.slide > div > .imageslide > #megot:hover{
+		margin-left: 30px;
+	}
+	.slide > div > .imageslide > #coton{
+		margin-left: 16px;
+	}
+	.slide > div > .imageslide > #coton:hover{
+		margin-left: 31px;
+	}
+	.slide > div > .imageslide > #parasol{
+		margin-left: 16px;
+	}
+	.slide > div > .imageslide > #bouteille{
+		margin-left: 16px;
+	}
+	.blocslider > p {
+		font-size: 10px;
+	}
+	.top > h1 {
+		margin-left: 40px;
+	}
+	.citation-mid{
+		width: 26%;
+	}
+	.citation-left{
+		padding-right: 5px;
+		width: 28%;
+	}
+	.liste > ul > li {
+		width: 194px;
+	}
+	.liste> ul > li:hover{
+		width: 209px;
+	}
+	.liste > ul > li > .headliste{
+		font-size: 12px;
+		width: 94px;
+	}
+	.listecontent> p{
+		margin-left: 35px;
+		font-size: 11px;
+	}
+	.right > .citation{
+		margin-left: 125px;
+	}
+	.form > button{
+		margin-left: 25%;
+	}
+}
